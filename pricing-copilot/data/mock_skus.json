@@ -1,0 +1,4412 @@
+[
+  {
+    "sku_id": "SKU-0001",
+    "name": "Home & Kitchen Item 1",
+    "category": "Home & Kitchen",
+    "cogs": 143.9,
+    "current_price": 198.8,
+    "inventory_level": 389,
+    "sales_velocity_weekly": 2.2,
+    "elasticity_estimate": -2.03,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 192.5,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 190.15,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0002",
+    "name": "Sports & Outdoors Item 2",
+    "category": "Sports & Outdoors",
+    "cogs": 81.09,
+    "current_price": 152.08,
+    "inventory_level": 352,
+    "sales_velocity_weekly": 4.8,
+    "elasticity_estimate": -1.9,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 160.31,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 170.79,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0003",
+    "name": "Home & Kitchen Item 3",
+    "category": "Home & Kitchen",
+    "cogs": 146.37,
+    "current_price": 197.95,
+    "inventory_level": 110,
+    "sales_velocity_weekly": 6.6,
+    "elasticity_estimate": -1.58,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 225.47,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0004",
+    "name": "Home & Kitchen Item 4",
+    "category": "Home & Kitchen",
+    "cogs": 145.69,
+    "current_price": 221.47,
+    "inventory_level": 85,
+    "sales_velocity_weekly": 18.5,
+    "elasticity_estimate": -1.15,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 236.44,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0005",
+    "name": "Home & Kitchen Item 5",
+    "category": "Home & Kitchen",
+    "cogs": 77.7,
+    "current_price": 138.83,
+    "inventory_level": 428,
+    "sales_velocity_weekly": 26.2,
+    "elasticity_estimate": -1.5,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 144.58,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0006",
+    "name": "Sports & Outdoors Item 6",
+    "category": "Sports & Outdoors",
+    "cogs": 25.43,
+    "current_price": 48.6,
+    "inventory_level": 318,
+    "sales_velocity_weekly": 20.8,
+    "elasticity_estimate": -2.02,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 47.17,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 48.48,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0007",
+    "name": "Apparel Item 7",
+    "category": "Apparel",
+    "cogs": 59.13,
+    "current_price": 117.16,
+    "inventory_level": 474,
+    "sales_velocity_weekly": 48.6,
+    "elasticity_estimate": -2.19,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 118.48,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 103.67,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 118.34,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0008",
+    "name": "Electronics Item 8",
+    "category": "Electronics",
+    "cogs": 54.62,
+    "current_price": 91.46,
+    "inventory_level": 36,
+    "sales_velocity_weekly": 38.7,
+    "elasticity_estimate": -1.54,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 88.86,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 96.18,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0009",
+    "name": "Sports & Outdoors Item 9",
+    "category": "Sports & Outdoors",
+    "cogs": 156.04,
+    "current_price": 255.02,
+    "inventory_level": 304,
+    "sales_velocity_weekly": 1.7,
+    "elasticity_estimate": -2.02,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 241.33,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 251.06,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0010",
+    "name": "Apparel Item 10",
+    "category": "Apparel",
+    "cogs": 130.64,
+    "current_price": 184.92,
+    "inventory_level": 115,
+    "sales_velocity_weekly": 49.3,
+    "elasticity_estimate": -2.47,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 178.96,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0011",
+    "name": "Apparel Item 11",
+    "category": "Apparel",
+    "cogs": 170.11,
+    "current_price": 243.75,
+    "inventory_level": 118,
+    "sales_velocity_weekly": 39.3,
+    "elasticity_estimate": -2.46,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 224.86,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 215.35,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0012",
+    "name": "Electronics Item 12",
+    "category": "Electronics",
+    "cogs": 181.05,
+    "current_price": 346.92,
+    "inventory_level": 33,
+    "sales_velocity_weekly": 44.5,
+    "elasticity_estimate": -1.47,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 319.07,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 352.68,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0013",
+    "name": "Sports & Outdoors Item 13",
+    "category": "Sports & Outdoors",
+    "cogs": 53.78,
+    "current_price": 73.08,
+    "inventory_level": 284,
+    "sales_velocity_weekly": 21.7,
+    "elasticity_estimate": -0.83,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 72.63,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0014",
+    "name": "Sports & Outdoors Item 14",
+    "category": "Sports & Outdoors",
+    "cogs": 37.51,
+    "current_price": 49.82,
+    "inventory_level": 422,
+    "sales_velocity_weekly": 36.0,
+    "elasticity_estimate": -0.95,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 52.72,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0015",
+    "name": "Apparel Item 15",
+    "category": "Apparel",
+    "cogs": 155.56,
+    "current_price": 257.3,
+    "inventory_level": 329,
+    "sales_velocity_weekly": 19.7,
+    "elasticity_estimate": -0.95,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 272.75,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0016",
+    "name": "Electronics Item 16",
+    "category": "Electronics",
+    "cogs": 87.37,
+    "current_price": 139.27,
+    "inventory_level": 56,
+    "sales_velocity_weekly": 22.7,
+    "elasticity_estimate": -1.16,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 149.5,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 134.59,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0017",
+    "name": "Electronics Item 17",
+    "category": "Electronics",
+    "cogs": 81.47,
+    "current_price": 124.45,
+    "inventory_level": 413,
+    "sales_velocity_weekly": 5.9,
+    "elasticity_estimate": -0.9,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 138.13,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0018",
+    "name": "Sports & Outdoors Item 18",
+    "category": "Sports & Outdoors",
+    "cogs": 195.88,
+    "current_price": 237.07,
+    "inventory_level": 263,
+    "sales_velocity_weekly": 49.3,
+    "elasticity_estimate": -0.64,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 257.92,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 249.58,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0019",
+    "name": "Electronics Item 19",
+    "category": "Electronics",
+    "cogs": 127.16,
+    "current_price": 167.3,
+    "inventory_level": 475,
+    "sales_velocity_weekly": 13.7,
+    "elasticity_estimate": -1.67,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 173.68,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0020",
+    "name": "Sports & Outdoors Item 20",
+    "category": "Sports & Outdoors",
+    "cogs": 30.0,
+    "current_price": 40.02,
+    "inventory_level": 68,
+    "sales_velocity_weekly": 24.7,
+    "elasticity_estimate": -0.62,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 34.62,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 36.09,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 37.73,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0021",
+    "name": "Apparel Item 21",
+    "category": "Apparel",
+    "cogs": 134.29,
+    "current_price": 205.14,
+    "inventory_level": 156,
+    "sales_velocity_weekly": 25.4,
+    "elasticity_estimate": -1.57,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 214.7,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 174.94,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0022",
+    "name": "Electronics Item 22",
+    "category": "Electronics",
+    "cogs": 10.47,
+    "current_price": 14.35,
+    "inventory_level": 114,
+    "sales_velocity_weekly": 7.5,
+    "elasticity_estimate": -1.26,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 14.87,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 12.73,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 14.86,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0023",
+    "name": "Sports & Outdoors Item 23",
+    "category": "Sports & Outdoors",
+    "cogs": 141.66,
+    "current_price": 268.27,
+    "inventory_level": 1,
+    "sales_velocity_weekly": 29.7,
+    "elasticity_estimate": -0.53,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 245.74,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 294.42,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 297.94,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0024",
+    "name": "Apparel Item 24",
+    "category": "Apparel",
+    "cogs": 114.72,
+    "current_price": 183.29,
+    "inventory_level": 384,
+    "sales_velocity_weekly": 16.8,
+    "elasticity_estimate": -1.43,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 159.34,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 191.33,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 156.82,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0025",
+    "name": "Home & Kitchen Item 25",
+    "category": "Home & Kitchen",
+    "cogs": 144.13,
+    "current_price": 208.49,
+    "inventory_level": 347,
+    "sales_velocity_weekly": 39.1,
+    "elasticity_estimate": -0.62,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 205.81,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 200.23,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0026",
+    "name": "Apparel Item 26",
+    "category": "Apparel",
+    "cogs": 36.44,
+    "current_price": 69.45,
+    "inventory_level": 193,
+    "sales_velocity_weekly": 33.0,
+    "elasticity_estimate": -2.27,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 73.29,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 78.59,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0027",
+    "name": "Sports & Outdoors Item 27",
+    "category": "Sports & Outdoors",
+    "cogs": 35.96,
+    "current_price": 55.89,
+    "inventory_level": 431,
+    "sales_velocity_weekly": 7.6,
+    "elasticity_estimate": -2.24,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 50.01,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0028",
+    "name": "Electronics Item 28",
+    "category": "Electronics",
+    "cogs": 144.74,
+    "current_price": 188.53,
+    "inventory_level": 145,
+    "sales_velocity_weekly": 45.8,
+    "elasticity_estimate": -1.63,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 203.22,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 176.3,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 202.64,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0029",
+    "name": "Electronics Item 29",
+    "category": "Electronics",
+    "cogs": 21.2,
+    "current_price": 31.89,
+    "inventory_level": 436,
+    "sales_velocity_weekly": 23.4,
+    "elasticity_estimate": -0.61,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 34.47,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 35.97,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 27.17,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0030",
+    "name": "Home & Kitchen Item 30",
+    "category": "Home & Kitchen",
+    "cogs": 132.06,
+    "current_price": 185.57,
+    "inventory_level": 116,
+    "sales_velocity_weekly": 48.6,
+    "elasticity_estimate": -1.8,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 192.3,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 164.8,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 165.68,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0031",
+    "name": "Home & Kitchen Item 31",
+    "category": "Home & Kitchen",
+    "cogs": 165.31,
+    "current_price": 304.44,
+    "inventory_level": 404,
+    "sales_velocity_weekly": 8.4,
+    "elasticity_estimate": -2.46,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 311.05,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 305.58,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 341.15,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0032",
+    "name": "Home & Kitchen Item 32",
+    "category": "Home & Kitchen",
+    "cogs": 46.32,
+    "current_price": 55.75,
+    "inventory_level": 201,
+    "sales_velocity_weekly": 14.5,
+    "elasticity_estimate": -1.51,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 47.99,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 49.83,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0033",
+    "name": "Home & Kitchen Item 33",
+    "category": "Home & Kitchen",
+    "cogs": 50.97,
+    "current_price": 82.39,
+    "inventory_level": 252,
+    "sales_velocity_weekly": 10.9,
+    "elasticity_estimate": -2.26,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 88.82,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 70.1,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0034",
+    "name": "Electronics Item 34",
+    "category": "Electronics",
+    "cogs": 71.03,
+    "current_price": 124.14,
+    "inventory_level": 227,
+    "sales_velocity_weekly": 31.7,
+    "elasticity_estimate": -1.67,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 113.26,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0035",
+    "name": "Electronics Item 35",
+    "category": "Electronics",
+    "cogs": 29.98,
+    "current_price": 54.04,
+    "inventory_level": 74,
+    "sales_velocity_weekly": 23.5,
+    "elasticity_estimate": -1.46,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 57.19,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 61.51,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0036",
+    "name": "Sports & Outdoors Item 36",
+    "category": "Sports & Outdoors",
+    "cogs": 183.82,
+    "current_price": 355.05,
+    "inventory_level": 104,
+    "sales_velocity_weekly": 41.7,
+    "elasticity_estimate": -2.08,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 350.03,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 340.63,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0037",
+    "name": "Sports & Outdoors Item 37",
+    "category": "Sports & Outdoors",
+    "cogs": 12.68,
+    "current_price": 24.63,
+    "inventory_level": 65,
+    "sales_velocity_weekly": 39.5,
+    "elasticity_estimate": -0.97,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 21.94,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0038",
+    "name": "Electronics Item 38",
+    "category": "Electronics",
+    "cogs": 71.58,
+    "current_price": 104.73,
+    "inventory_level": 93,
+    "sales_velocity_weekly": 14.5,
+    "elasticity_estimate": -1.88,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 91.44,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0039",
+    "name": "Sports & Outdoors Item 39",
+    "category": "Sports & Outdoors",
+    "cogs": 190.22,
+    "current_price": 360.31,
+    "inventory_level": 380,
+    "sales_velocity_weekly": 23.6,
+    "elasticity_estimate": -1.14,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 406.31,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 400.58,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0040",
+    "name": "Electronics Item 40",
+    "category": "Electronics",
+    "cogs": 178.18,
+    "current_price": 238.49,
+    "inventory_level": 335,
+    "sales_velocity_weekly": 27.7,
+    "elasticity_estimate": -1.16,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 223.19,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 229.6,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 233.62,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0041",
+    "name": "Electronics Item 41",
+    "category": "Electronics",
+    "cogs": 18.51,
+    "current_price": 24.31,
+    "inventory_level": 411,
+    "sales_velocity_weekly": 30.7,
+    "elasticity_estimate": -1.25,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 25.5,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 21.85,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0042",
+    "name": "Home & Kitchen Item 42",
+    "category": "Home & Kitchen",
+    "cogs": 192.47,
+    "current_price": 342.87,
+    "inventory_level": 284,
+    "sales_velocity_weekly": 42.0,
+    "elasticity_estimate": -1.86,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 359.05,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0043",
+    "name": "Apparel Item 43",
+    "category": "Apparel",
+    "cogs": 107.69,
+    "current_price": 172.2,
+    "inventory_level": 413,
+    "sales_velocity_weekly": 4.1,
+    "elasticity_estimate": -1.66,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 149.36,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 155.81,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0044",
+    "name": "Electronics Item 44",
+    "category": "Electronics",
+    "cogs": 15.96,
+    "current_price": 27.11,
+    "inventory_level": 96,
+    "sales_velocity_weekly": 34.4,
+    "elasticity_estimate": -2.21,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 27.05,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 27.25,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 30.02,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0045",
+    "name": "Electronics Item 45",
+    "category": "Electronics",
+    "cogs": 147.14,
+    "current_price": 286.77,
+    "inventory_level": 468,
+    "sales_velocity_weekly": 48.2,
+    "elasticity_estimate": -0.79,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 299.09,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 279.98,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 311.65,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0046",
+    "name": "Home & Kitchen Item 46",
+    "category": "Home & Kitchen",
+    "cogs": 12.27,
+    "current_price": 21.11,
+    "inventory_level": 135,
+    "sales_velocity_weekly": 36.0,
+    "elasticity_estimate": -1.71,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 20.14,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0047",
+    "name": "Apparel Item 47",
+    "category": "Apparel",
+    "cogs": 65.08,
+    "current_price": 110.36,
+    "inventory_level": 100,
+    "sales_velocity_weekly": 27.4,
+    "elasticity_estimate": -2.47,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 96.34,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 125.11,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0048",
+    "name": "Home & Kitchen Item 48",
+    "category": "Home & Kitchen",
+    "cogs": 32.26,
+    "current_price": 39.35,
+    "inventory_level": 185,
+    "sales_velocity_weekly": 28.7,
+    "elasticity_estimate": -0.93,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 37.85,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 39.96,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 37.12,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0049",
+    "name": "Home & Kitchen Item 49",
+    "category": "Home & Kitchen",
+    "cogs": 195.33,
+    "current_price": 358.16,
+    "inventory_level": 219,
+    "sales_velocity_weekly": 14.7,
+    "elasticity_estimate": -0.81,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 363.21,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 379.17,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0050",
+    "name": "Sports & Outdoors Item 50",
+    "category": "Sports & Outdoors",
+    "cogs": 31.54,
+    "current_price": 59.28,
+    "inventory_level": 194,
+    "sales_velocity_weekly": 1.0,
+    "elasticity_estimate": -0.83,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 60.9,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 56.53,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 66.7,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0051",
+    "name": "Sports & Outdoors Item 51",
+    "category": "Sports & Outdoors",
+    "cogs": 59.71,
+    "current_price": 107.95,
+    "inventory_level": 243,
+    "sales_velocity_weekly": 34.8,
+    "elasticity_estimate": -0.79,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 115.49,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 101.59,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0052",
+    "name": "Sports & Outdoors Item 52",
+    "category": "Sports & Outdoors",
+    "cogs": 19.68,
+    "current_price": 32.8,
+    "inventory_level": 204,
+    "sales_velocity_weekly": 33.0,
+    "elasticity_estimate": -1.12,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 31.92,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 28.84,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0053",
+    "name": "Sports & Outdoors Item 53",
+    "category": "Sports & Outdoors",
+    "cogs": 167.75,
+    "current_price": 269.39,
+    "inventory_level": 258,
+    "sales_velocity_weekly": 35.5,
+    "elasticity_estimate": -1.72,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 259.62,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 280.19,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0054",
+    "name": "Electronics Item 54",
+    "category": "Electronics",
+    "cogs": 124.66,
+    "current_price": 172.72,
+    "inventory_level": 18,
+    "sales_velocity_weekly": 44.8,
+    "elasticity_estimate": -2.13,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 154.22,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 161.44,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 150.03,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0055",
+    "name": "Home & Kitchen Item 55",
+    "category": "Home & Kitchen",
+    "cogs": 17.25,
+    "current_price": 22.27,
+    "inventory_level": 268,
+    "sales_velocity_weekly": 47.6,
+    "elasticity_estimate": -0.76,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 19.15,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 21.13,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 23.37,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0056",
+    "name": "Home & Kitchen Item 56",
+    "category": "Home & Kitchen",
+    "cogs": 148.6,
+    "current_price": 194.76,
+    "inventory_level": 187,
+    "sales_velocity_weekly": 40.7,
+    "elasticity_estimate": -1.25,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 197.23,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0057",
+    "name": "Electronics Item 57",
+    "category": "Electronics",
+    "cogs": 113.36,
+    "current_price": 136.1,
+    "inventory_level": 277,
+    "sales_velocity_weekly": 25.8,
+    "elasticity_estimate": -1.3,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 116.96,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 123.71,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0058",
+    "name": "Sports & Outdoors Item 58",
+    "category": "Sports & Outdoors",
+    "cogs": 163.5,
+    "current_price": 239.49,
+    "inventory_level": 171,
+    "sales_velocity_weekly": 20.9,
+    "elasticity_estimate": -0.56,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 223.02,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0059",
+    "name": "Electronics Item 59",
+    "category": "Electronics",
+    "cogs": 36.5,
+    "current_price": 60.85,
+    "inventory_level": 48,
+    "sales_velocity_weekly": 26.5,
+    "elasticity_estimate": -0.53,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 62.8,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 69.4,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0060",
+    "name": "Electronics Item 60",
+    "category": "Electronics",
+    "cogs": 12.12,
+    "current_price": 21.81,
+    "inventory_level": 112,
+    "sales_velocity_weekly": 10.7,
+    "elasticity_estimate": -0.5,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 20.23,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 24.35,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0061",
+    "name": "Sports & Outdoors Item 61",
+    "category": "Sports & Outdoors",
+    "cogs": 71.7,
+    "current_price": 92.54,
+    "inventory_level": 174,
+    "sales_velocity_weekly": 36.8,
+    "elasticity_estimate": -2.48,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 105.87,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 94.26,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 79.01,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0062",
+    "name": "Electronics Item 62",
+    "category": "Electronics",
+    "cogs": 179.37,
+    "current_price": 219.19,
+    "inventory_level": 181,
+    "sales_velocity_weekly": 11.4,
+    "elasticity_estimate": -1.75,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 210.1,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 247.68,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0063",
+    "name": "Apparel Item 63",
+    "category": "Apparel",
+    "cogs": 78.99,
+    "current_price": 141.15,
+    "inventory_level": 256,
+    "sales_velocity_weekly": 21.7,
+    "elasticity_estimate": -1.58,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 130.65,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 128.27,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0064",
+    "name": "Sports & Outdoors Item 64",
+    "category": "Sports & Outdoors",
+    "cogs": 94.42,
+    "current_price": 138.23,
+    "inventory_level": 35,
+    "sales_velocity_weekly": 37.7,
+    "elasticity_estimate": -1.45,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 149.48,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0065",
+    "name": "Electronics Item 65",
+    "category": "Electronics",
+    "cogs": 48.34,
+    "current_price": 72.34,
+    "inventory_level": 233,
+    "sales_velocity_weekly": 46.1,
+    "elasticity_estimate": -1.2,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 82.73,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0066",
+    "name": "Home & Kitchen Item 66",
+    "category": "Home & Kitchen",
+    "cogs": 156.88,
+    "current_price": 250.45,
+    "inventory_level": 346,
+    "sales_velocity_weekly": 44.6,
+    "elasticity_estimate": -2.41,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 238.11,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 282.88,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 252.79,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0067",
+    "name": "Apparel Item 67",
+    "category": "Apparel",
+    "cogs": 56.17,
+    "current_price": 108.28,
+    "inventory_level": 330,
+    "sales_velocity_weekly": 41.2,
+    "elasticity_estimate": -0.54,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 116.65,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 113.09,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 92.43,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0068",
+    "name": "Sports & Outdoors Item 68",
+    "category": "Sports & Outdoors",
+    "cogs": 149.82,
+    "current_price": 220.1,
+    "inventory_level": 440,
+    "sales_velocity_weekly": 25.0,
+    "elasticity_estimate": -0.59,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 222.01,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0069",
+    "name": "Home & Kitchen Item 69",
+    "category": "Home & Kitchen",
+    "cogs": 161.9,
+    "current_price": 216.69,
+    "inventory_level": 230,
+    "sales_velocity_weekly": 43.5,
+    "elasticity_estimate": -1.1,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 213.98,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 231.62,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 236.5,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0070",
+    "name": "Electronics Item 70",
+    "category": "Electronics",
+    "cogs": 154.04,
+    "current_price": 264.47,
+    "inventory_level": 316,
+    "sales_velocity_weekly": 19.3,
+    "elasticity_estimate": -1.36,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 258.85,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 249.05,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0071",
+    "name": "Home & Kitchen Item 71",
+    "category": "Home & Kitchen",
+    "cogs": 128.44,
+    "current_price": 243.45,
+    "inventory_level": 80,
+    "sales_velocity_weekly": 48.8,
+    "elasticity_estimate": -1.08,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 251.63,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 268.68,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 273.87,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0072",
+    "name": "Sports & Outdoors Item 72",
+    "category": "Sports & Outdoors",
+    "cogs": 31.88,
+    "current_price": 56.55,
+    "inventory_level": 291,
+    "sales_velocity_weekly": 35.2,
+    "elasticity_estimate": -1.51,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 55.96,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0073",
+    "name": "Home & Kitchen Item 73",
+    "category": "Home & Kitchen",
+    "cogs": 31.94,
+    "current_price": 38.8,
+    "inventory_level": 359,
+    "sales_velocity_weekly": 32.2,
+    "elasticity_estimate": -0.97,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 37.71,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 42.57,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0074",
+    "name": "Apparel Item 74",
+    "category": "Apparel",
+    "cogs": 169.86,
+    "current_price": 209.88,
+    "inventory_level": 149,
+    "sales_velocity_weekly": 26.7,
+    "elasticity_estimate": -2.16,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 209.31,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Target",
+        "price": 179.36,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0075",
+    "name": "Electronics Item 75",
+    "category": "Electronics",
+    "cogs": 127.95,
+    "current_price": 176.78,
+    "inventory_level": 366,
+    "sales_velocity_weekly": 43.0,
+    "elasticity_estimate": -1.59,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 164.17,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 150.65,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 186.15,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0076",
+    "name": "Home & Kitchen Item 76",
+    "category": "Home & Kitchen",
+    "cogs": 49.95,
+    "current_price": 76.96,
+    "inventory_level": 337,
+    "sales_velocity_weekly": 15.2,
+    "elasticity_estimate": -1.46,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 79.47,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 79.69,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 77.39,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0077",
+    "name": "Electronics Item 77",
+    "category": "Electronics",
+    "cogs": 38.23,
+    "current_price": 49.64,
+    "inventory_level": 210,
+    "sales_velocity_weekly": 37.5,
+    "elasticity_estimate": -1.13,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 53.71,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0078",
+    "name": "Electronics Item 78",
+    "category": "Electronics",
+    "cogs": 70.16,
+    "current_price": 88.0,
+    "inventory_level": 451,
+    "sales_velocity_weekly": 19.5,
+    "elasticity_estimate": -1.76,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 88.12,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 94.22,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 98.53,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0079",
+    "name": "Electronics Item 79",
+    "category": "Electronics",
+    "cogs": 106.54,
+    "current_price": 211.78,
+    "inventory_level": 382,
+    "sales_velocity_weekly": 26.4,
+    "elasticity_estimate": -2.03,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 237.62,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0080",
+    "name": "Apparel Item 80",
+    "category": "Apparel",
+    "cogs": 83.18,
+    "current_price": 128.11,
+    "inventory_level": 172,
+    "sales_velocity_weekly": 32.6,
+    "elasticity_estimate": -2.33,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 114.22,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 135.18,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0081",
+    "name": "Electronics Item 81",
+    "category": "Electronics",
+    "cogs": 34.84,
+    "current_price": 46.81,
+    "inventory_level": 254,
+    "sales_velocity_weekly": 49.9,
+    "elasticity_estimate": -0.62,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 40.4,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 49.84,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0082",
+    "name": "Sports & Outdoors Item 82",
+    "category": "Sports & Outdoors",
+    "cogs": 125.1,
+    "current_price": 191.21,
+    "inventory_level": 18,
+    "sales_velocity_weekly": 6.0,
+    "elasticity_estimate": -1.19,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 171.6,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 188.65,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0083",
+    "name": "Electronics Item 83",
+    "category": "Electronics",
+    "cogs": 75.01,
+    "current_price": 108.55,
+    "inventory_level": 153,
+    "sales_velocity_weekly": 35.7,
+    "elasticity_estimate": -1.65,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 100.16,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 122.11,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0084",
+    "name": "Sports & Outdoors Item 84",
+    "category": "Sports & Outdoors",
+    "cogs": 50.11,
+    "current_price": 86.53,
+    "inventory_level": 209,
+    "sales_velocity_weekly": 16.3,
+    "elasticity_estimate": -2.18,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 79.81,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0085",
+    "name": "Home & Kitchen Item 85",
+    "category": "Home & Kitchen",
+    "cogs": 30.06,
+    "current_price": 48.96,
+    "inventory_level": 197,
+    "sales_velocity_weekly": 38.1,
+    "elasticity_estimate": -1.86,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 55.22,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 46.04,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0086",
+    "name": "Home & Kitchen Item 86",
+    "category": "Home & Kitchen",
+    "cogs": 37.3,
+    "current_price": 63.79,
+    "inventory_level": 480,
+    "sales_velocity_weekly": 31.2,
+    "elasticity_estimate": -0.96,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 63.14,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 72.27,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 54.85,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0087",
+    "name": "Sports & Outdoors Item 87",
+    "category": "Sports & Outdoors",
+    "cogs": 59.48,
+    "current_price": 72.09,
+    "inventory_level": 305,
+    "sales_velocity_weekly": 22.1,
+    "elasticity_estimate": -1.05,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 81.05,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 61.62,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 76.74,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0088",
+    "name": "Electronics Item 88",
+    "category": "Electronics",
+    "cogs": 28.79,
+    "current_price": 46.25,
+    "inventory_level": 123,
+    "sales_velocity_weekly": 21.7,
+    "elasticity_estimate": -1.73,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 41.72,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0089",
+    "name": "Home & Kitchen Item 89",
+    "category": "Home & Kitchen",
+    "cogs": 71.18,
+    "current_price": 111.0,
+    "inventory_level": 90,
+    "sales_velocity_weekly": 15.5,
+    "elasticity_estimate": -1.36,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 124.09,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 96.86,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0090",
+    "name": "Home & Kitchen Item 90",
+    "category": "Home & Kitchen",
+    "cogs": 81.07,
+    "current_price": 124.51,
+    "inventory_level": 257,
+    "sales_velocity_weekly": 34.2,
+    "elasticity_estimate": -1.77,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 133.0,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0091",
+    "name": "Sports & Outdoors Item 91",
+    "category": "Sports & Outdoors",
+    "cogs": 177.64,
+    "current_price": 256.17,
+    "inventory_level": 421,
+    "sales_velocity_weekly": 21.1,
+    "elasticity_estimate": -2.15,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 267.58,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0092",
+    "name": "Apparel Item 92",
+    "category": "Apparel",
+    "cogs": 14.98,
+    "current_price": 28.44,
+    "inventory_level": 256,
+    "sales_velocity_weekly": 40.2,
+    "elasticity_estimate": -0.96,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 26.16,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0093",
+    "name": "Home & Kitchen Item 93",
+    "category": "Home & Kitchen",
+    "cogs": 109.76,
+    "current_price": 133.36,
+    "inventory_level": 298,
+    "sales_velocity_weekly": 16.3,
+    "elasticity_estimate": -1.68,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 133.23,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 124.09,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 141.52,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0094",
+    "name": "Home & Kitchen Item 94",
+    "category": "Home & Kitchen",
+    "cogs": 75.74,
+    "current_price": 143.44,
+    "inventory_level": 66,
+    "sales_velocity_weekly": 7.6,
+    "elasticity_estimate": -0.56,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 143.13,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0095",
+    "name": "Electronics Item 95",
+    "category": "Electronics",
+    "cogs": 165.28,
+    "current_price": 254.15,
+    "inventory_level": 474,
+    "sales_velocity_weekly": 43.8,
+    "elasticity_estimate": -1.63,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 283.01,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 253.41,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 244.19,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0096",
+    "name": "Home & Kitchen Item 96",
+    "category": "Home & Kitchen",
+    "cogs": 106.72,
+    "current_price": 145.15,
+    "inventory_level": 189,
+    "sales_velocity_weekly": 9.6,
+    "elasticity_estimate": -1.66,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 164.72,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 139.32,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0097",
+    "name": "Electronics Item 97",
+    "category": "Electronics",
+    "cogs": 156.37,
+    "current_price": 239.01,
+    "inventory_level": 225,
+    "sales_velocity_weekly": 40.9,
+    "elasticity_estimate": -1.08,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 244.6,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 207.73,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0098",
+    "name": "Home & Kitchen Item 98",
+    "category": "Home & Kitchen",
+    "cogs": 189.46,
+    "current_price": 309.15,
+    "inventory_level": 456,
+    "sales_velocity_weekly": 32.1,
+    "elasticity_estimate": -0.83,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 305.95,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0099",
+    "name": "Sports & Outdoors Item 99",
+    "category": "Sports & Outdoors",
+    "cogs": 85.45,
+    "current_price": 107.8,
+    "inventory_level": 145,
+    "sales_velocity_weekly": 3.0,
+    "elasticity_estimate": -0.77,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 113.75,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 115.46,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0100",
+    "name": "Sports & Outdoors Item 100",
+    "category": "Sports & Outdoors",
+    "cogs": 132.88,
+    "current_price": 179.74,
+    "inventory_level": 364,
+    "sales_velocity_weekly": 39.0,
+    "elasticity_estimate": -0.74,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 168.83,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 171.79,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 205.75,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0101",
+    "name": "Sports & Outdoors Item 101",
+    "category": "Sports & Outdoors",
+    "cogs": 105.38,
+    "current_price": 154.18,
+    "inventory_level": 372,
+    "sales_velocity_weekly": 3.6,
+    "elasticity_estimate": -1.41,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 172.05,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0102",
+    "name": "Home & Kitchen Item 102",
+    "category": "Home & Kitchen",
+    "cogs": 81.54,
+    "current_price": 148.93,
+    "inventory_level": 360,
+    "sales_velocity_weekly": 7.7,
+    "elasticity_estimate": -0.84,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 137.87,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 129.58,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 129.92,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0103",
+    "name": "Home & Kitchen Item 103",
+    "category": "Home & Kitchen",
+    "cogs": 42.1,
+    "current_price": 78.76,
+    "inventory_level": 257,
+    "sales_velocity_weekly": 28.5,
+    "elasticity_estimate": -0.92,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 87.49,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 90.34,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 85.73,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0104",
+    "name": "Electronics Item 104",
+    "category": "Electronics",
+    "cogs": 32.14,
+    "current_price": 43.46,
+    "inventory_level": 270,
+    "sales_velocity_weekly": 39.9,
+    "elasticity_estimate": -0.69,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 45.16,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 42.52,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 41.36,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0105",
+    "name": "Home & Kitchen Item 105",
+    "category": "Home & Kitchen",
+    "cogs": 186.07,
+    "current_price": 241.87,
+    "inventory_level": 483,
+    "sales_velocity_weekly": 29.9,
+    "elasticity_estimate": -0.67,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 220.46,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 228.43,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0106",
+    "name": "Sports & Outdoors Item 106",
+    "category": "Sports & Outdoors",
+    "cogs": 143.25,
+    "current_price": 216.0,
+    "inventory_level": 133,
+    "sales_velocity_weekly": 47.0,
+    "elasticity_estimate": -1.69,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 228.43,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 227.86,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0107",
+    "name": "Electronics Item 107",
+    "category": "Electronics",
+    "cogs": 29.14,
+    "current_price": 53.65,
+    "inventory_level": 202,
+    "sales_velocity_weekly": 30.8,
+    "elasticity_estimate": -1.19,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 55.79,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0108",
+    "name": "Home & Kitchen Item 108",
+    "category": "Home & Kitchen",
+    "cogs": 93.52,
+    "current_price": 116.98,
+    "inventory_level": 279,
+    "sales_velocity_weekly": 24.2,
+    "elasticity_estimate": -1.18,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 124.65,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0109",
+    "name": "Apparel Item 109",
+    "category": "Apparel",
+    "cogs": 47.47,
+    "current_price": 88.48,
+    "inventory_level": 214,
+    "sales_velocity_weekly": 42.0,
+    "elasticity_estimate": -0.67,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 100.95,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0110",
+    "name": "Electronics Item 110",
+    "category": "Electronics",
+    "cogs": 182.43,
+    "current_price": 236.96,
+    "inventory_level": 149,
+    "sales_velocity_weekly": 2.4,
+    "elasticity_estimate": -1.36,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 215.45,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0111",
+    "name": "Home & Kitchen Item 111",
+    "category": "Home & Kitchen",
+    "cogs": 110.41,
+    "current_price": 138.21,
+    "inventory_level": 320,
+    "sales_velocity_weekly": 32.6,
+    "elasticity_estimate": -2.29,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 146.87,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 154.64,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 153.66,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0112",
+    "name": "Sports & Outdoors Item 112",
+    "category": "Sports & Outdoors",
+    "cogs": 176.96,
+    "current_price": 263.65,
+    "inventory_level": 62,
+    "sales_velocity_weekly": 40.3,
+    "elasticity_estimate": -2.09,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 275.35,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0113",
+    "name": "Electronics Item 113",
+    "category": "Electronics",
+    "cogs": 100.81,
+    "current_price": 126.26,
+    "inventory_level": 338,
+    "sales_velocity_weekly": 36.9,
+    "elasticity_estimate": -1.82,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 117.68,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0114",
+    "name": "Electronics Item 114",
+    "category": "Electronics",
+    "cogs": 174.87,
+    "current_price": 297.68,
+    "inventory_level": 32,
+    "sales_velocity_weekly": 3.2,
+    "elasticity_estimate": -2.37,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 317.56,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 333.55,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 282.72,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0115",
+    "name": "Sports & Outdoors Item 115",
+    "category": "Sports & Outdoors",
+    "cogs": 91.84,
+    "current_price": 155.21,
+    "inventory_level": 255,
+    "sales_velocity_weekly": 4.8,
+    "elasticity_estimate": -2.09,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 170.95,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 133.69,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 163.23,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0116",
+    "name": "Apparel Item 116",
+    "category": "Apparel",
+    "cogs": 135.43,
+    "current_price": 166.42,
+    "inventory_level": 468,
+    "sales_velocity_weekly": 19.6,
+    "elasticity_estimate": -0.84,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 156.18,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0117",
+    "name": "Sports & Outdoors Item 117",
+    "category": "Sports & Outdoors",
+    "cogs": 162.99,
+    "current_price": 290.15,
+    "inventory_level": 361,
+    "sales_velocity_weekly": 5.1,
+    "elasticity_estimate": -0.74,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 331.25,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 329.44,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0118",
+    "name": "Electronics Item 118",
+    "category": "Electronics",
+    "cogs": 83.95,
+    "current_price": 160.74,
+    "inventory_level": 281,
+    "sales_velocity_weekly": 11.5,
+    "elasticity_estimate": -2.02,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 172.56,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 143.5,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 158.79,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0119",
+    "name": "Sports & Outdoors Item 119",
+    "category": "Sports & Outdoors",
+    "cogs": 114.77,
+    "current_price": 193.27,
+    "inventory_level": 418,
+    "sales_velocity_weekly": 24.1,
+    "elasticity_estimate": -1.27,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 212.69,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 177.26,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 181.9,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0120",
+    "name": "Home & Kitchen Item 120",
+    "category": "Home & Kitchen",
+    "cogs": 100.29,
+    "current_price": 156.64,
+    "inventory_level": 199,
+    "sales_velocity_weekly": 7.7,
+    "elasticity_estimate": -0.77,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 141.08,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 160.0,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 141.06,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0121",
+    "name": "Apparel Item 121",
+    "category": "Apparel",
+    "cogs": 66.75,
+    "current_price": 80.84,
+    "inventory_level": 93,
+    "sales_velocity_weekly": 30.6,
+    "elasticity_estimate": -0.53,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 84.36,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 90.28,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 92.88,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0122",
+    "name": "Home & Kitchen Item 122",
+    "category": "Home & Kitchen",
+    "cogs": 95.48,
+    "current_price": 117.83,
+    "inventory_level": 447,
+    "sales_velocity_weekly": 38.2,
+    "elasticity_estimate": -1.4,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 103.91,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 109.98,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0123",
+    "name": "Home & Kitchen Item 123",
+    "category": "Home & Kitchen",
+    "cogs": 77.63,
+    "current_price": 99.5,
+    "inventory_level": 369,
+    "sales_velocity_weekly": 28.2,
+    "elasticity_estimate": -1.94,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 110.28,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 87.76,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0124",
+    "name": "Home & Kitchen Item 124",
+    "category": "Home & Kitchen",
+    "cogs": 47.05,
+    "current_price": 77.79,
+    "inventory_level": 59,
+    "sales_velocity_weekly": 49.8,
+    "elasticity_estimate": -1.01,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 89.19,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 86.16,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0125",
+    "name": "Sports & Outdoors Item 125",
+    "category": "Sports & Outdoors",
+    "cogs": 118.45,
+    "current_price": 164.63,
+    "inventory_level": 410,
+    "sales_velocity_weekly": 16.2,
+    "elasticity_estimate": -1.07,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 160.37,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 174.87,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0126",
+    "name": "Sports & Outdoors Item 126",
+    "category": "Sports & Outdoors",
+    "cogs": 62.83,
+    "current_price": 98.97,
+    "inventory_level": 122,
+    "sales_velocity_weekly": 16.3,
+    "elasticity_estimate": -1.47,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 102.71,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 94.35,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0127",
+    "name": "Electronics Item 127",
+    "category": "Electronics",
+    "cogs": 155.91,
+    "current_price": 262.19,
+    "inventory_level": 83,
+    "sales_velocity_weekly": 3.6,
+    "elasticity_estimate": -0.93,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 273.68,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 234.72,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 228.32,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0128",
+    "name": "Home & Kitchen Item 128",
+    "category": "Home & Kitchen",
+    "cogs": 95.33,
+    "current_price": 156.34,
+    "inventory_level": 166,
+    "sales_velocity_weekly": 6.7,
+    "elasticity_estimate": -1.87,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 175.24,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 172.84,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0129",
+    "name": "Electronics Item 129",
+    "category": "Electronics",
+    "cogs": 128.54,
+    "current_price": 185.66,
+    "inventory_level": 267,
+    "sales_velocity_weekly": 16.4,
+    "elasticity_estimate": -2.15,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 164.94,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0130",
+    "name": "Sports & Outdoors Item 130",
+    "category": "Sports & Outdoors",
+    "cogs": 90.85,
+    "current_price": 147.2,
+    "inventory_level": 214,
+    "sales_velocity_weekly": 26.3,
+    "elasticity_estimate": -1.54,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 166.57,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 164.61,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0131",
+    "name": "Sports & Outdoors Item 131",
+    "category": "Sports & Outdoors",
+    "cogs": 83.53,
+    "current_price": 139.56,
+    "inventory_level": 405,
+    "sales_velocity_weekly": 42.3,
+    "elasticity_estimate": -2.31,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 120.37,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 129.46,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0132",
+    "name": "Electronics Item 132",
+    "category": "Electronics",
+    "cogs": 195.85,
+    "current_price": 345.59,
+    "inventory_level": 300,
+    "sales_velocity_weekly": 19.3,
+    "elasticity_estimate": -2.26,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 318.22,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0133",
+    "name": "Sports & Outdoors Item 133",
+    "category": "Sports & Outdoors",
+    "cogs": 76.18,
+    "current_price": 121.35,
+    "inventory_level": 181,
+    "sales_velocity_weekly": 6.3,
+    "elasticity_estimate": -1.02,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 116.65,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0134",
+    "name": "Electronics Item 134",
+    "category": "Electronics",
+    "cogs": 173.93,
+    "current_price": 334.13,
+    "inventory_level": 375,
+    "sales_velocity_weekly": 34.0,
+    "elasticity_estimate": -2.37,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 329.86,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 377.44,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0135",
+    "name": "Apparel Item 135",
+    "category": "Apparel",
+    "cogs": 102.24,
+    "current_price": 151.76,
+    "inventory_level": 31,
+    "sales_velocity_weekly": 21.6,
+    "elasticity_estimate": -1.93,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 156.41,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 166.29,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0136",
+    "name": "Home & Kitchen Item 136",
+    "category": "Home & Kitchen",
+    "cogs": 107.05,
+    "current_price": 183.83,
+    "inventory_level": 239,
+    "sales_velocity_weekly": 14.3,
+    "elasticity_estimate": -0.8,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 167.18,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0137",
+    "name": "Electronics Item 137",
+    "category": "Electronics",
+    "cogs": 18.32,
+    "current_price": 32.22,
+    "inventory_level": 408,
+    "sales_velocity_weekly": 15.4,
+    "elasticity_estimate": -1.64,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 33.86,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 36.19,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 28.56,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0138",
+    "name": "Electronics Item 138",
+    "category": "Electronics",
+    "cogs": 20.33,
+    "current_price": 39.13,
+    "inventory_level": 419,
+    "sales_velocity_weekly": 47.8,
+    "elasticity_estimate": -2.04,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 40.13,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 43.54,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 40.25,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0139",
+    "name": "Sports & Outdoors Item 139",
+    "category": "Sports & Outdoors",
+    "cogs": 146.4,
+    "current_price": 277.49,
+    "inventory_level": 399,
+    "sales_velocity_weekly": 12.7,
+    "elasticity_estimate": -1.58,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 302.93,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 279.03,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 270.4,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0140",
+    "name": "Sports & Outdoors Item 140",
+    "category": "Sports & Outdoors",
+    "cogs": 10.64,
+    "current_price": 14.26,
+    "inventory_level": 315,
+    "sales_velocity_weekly": 20.2,
+    "elasticity_estimate": -2.36,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 12.53,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 13.23,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0141",
+    "name": "Sports & Outdoors Item 141",
+    "category": "Sports & Outdoors",
+    "cogs": 72.39,
+    "current_price": 122.23,
+    "inventory_level": 71,
+    "sales_velocity_weekly": 38.4,
+    "elasticity_estimate": -1.93,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 133.49,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 118.59,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0142",
+    "name": "Home & Kitchen Item 142",
+    "category": "Home & Kitchen",
+    "cogs": 77.51,
+    "current_price": 152.11,
+    "inventory_level": 72,
+    "sales_velocity_weekly": 18.3,
+    "elasticity_estimate": -2.16,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 172.27,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 156.32,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0143",
+    "name": "Home & Kitchen Item 143",
+    "category": "Home & Kitchen",
+    "cogs": 117.34,
+    "current_price": 178.87,
+    "inventory_level": 403,
+    "sales_velocity_weekly": 1.3,
+    "elasticity_estimate": -1.61,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 193.75,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 187.95,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0144",
+    "name": "Home & Kitchen Item 144",
+    "category": "Home & Kitchen",
+    "cogs": 184.31,
+    "current_price": 353.76,
+    "inventory_level": 100,
+    "sales_velocity_weekly": 26.6,
+    "elasticity_estimate": -1.03,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 303.53,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 316.73,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0145",
+    "name": "Electronics Item 145",
+    "category": "Electronics",
+    "cogs": 103.3,
+    "current_price": 167.42,
+    "inventory_level": 48,
+    "sales_velocity_weekly": 8.8,
+    "elasticity_estimate": -2.46,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 160.48,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Target",
+        "price": 157.94,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0146",
+    "name": "Sports & Outdoors Item 146",
+    "category": "Sports & Outdoors",
+    "cogs": 158.14,
+    "current_price": 285.95,
+    "inventory_level": 152,
+    "sales_velocity_weekly": 38.4,
+    "elasticity_estimate": -0.88,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 283.49,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 326.03,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0147",
+    "name": "Sports & Outdoors Item 147",
+    "category": "Sports & Outdoors",
+    "cogs": 167.5,
+    "current_price": 303.4,
+    "inventory_level": 84,
+    "sales_velocity_weekly": 31.2,
+    "elasticity_estimate": -1.81,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 315.75,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0148",
+    "name": "Electronics Item 148",
+    "category": "Electronics",
+    "cogs": 165.9,
+    "current_price": 234.26,
+    "inventory_level": 450,
+    "sales_velocity_weekly": 0.8,
+    "elasticity_estimate": -2.5,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 264.81,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 269.24,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 238.39,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0149",
+    "name": "Home & Kitchen Item 149",
+    "category": "Home & Kitchen",
+    "cogs": 138.79,
+    "current_price": 188.62,
+    "inventory_level": 217,
+    "sales_velocity_weekly": 30.8,
+    "elasticity_estimate": -1.24,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 162.11,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 183.32,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 168.33,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0150",
+    "name": "Sports & Outdoors Item 150",
+    "category": "Sports & Outdoors",
+    "cogs": 172.15,
+    "current_price": 265.93,
+    "inventory_level": 300,
+    "sales_velocity_weekly": 35.0,
+    "elasticity_estimate": -1.39,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 266.39,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 261.66,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 230.86,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0151",
+    "name": "Sports & Outdoors Item 151",
+    "category": "Sports & Outdoors",
+    "cogs": 70.51,
+    "current_price": 109.08,
+    "inventory_level": 104,
+    "sales_velocity_weekly": 8.5,
+    "elasticity_estimate": -2.03,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 119.83,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 94.62,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0152",
+    "name": "Sports & Outdoors Item 152",
+    "category": "Sports & Outdoors",
+    "cogs": 163.15,
+    "current_price": 282.21,
+    "inventory_level": 453,
+    "sales_velocity_weekly": 32.2,
+    "elasticity_estimate": -2.48,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 286.56,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0153",
+    "name": "Apparel Item 153",
+    "category": "Apparel",
+    "cogs": 113.77,
+    "current_price": 155.8,
+    "inventory_level": 465,
+    "sales_velocity_weekly": 37.1,
+    "elasticity_estimate": -1.04,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 155.47,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 173.22,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 136.56,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0154",
+    "name": "Apparel Item 154",
+    "category": "Apparel",
+    "cogs": 125.2,
+    "current_price": 155.63,
+    "inventory_level": 242,
+    "sales_velocity_weekly": 18.0,
+    "elasticity_estimate": -2.47,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 156.53,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0155",
+    "name": "Electronics Item 155",
+    "category": "Electronics",
+    "cogs": 27.68,
+    "current_price": 49.39,
+    "inventory_level": 86,
+    "sales_velocity_weekly": 5.6,
+    "elasticity_estimate": -2.31,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 53.86,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0156",
+    "name": "Electronics Item 156",
+    "category": "Electronics",
+    "cogs": 105.36,
+    "current_price": 206.17,
+    "inventory_level": 404,
+    "sales_velocity_weekly": 40.0,
+    "elasticity_estimate": -2.23,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 210.64,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 189.15,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0157",
+    "name": "Electronics Item 157",
+    "category": "Electronics",
+    "cogs": 38.62,
+    "current_price": 71.92,
+    "inventory_level": 348,
+    "sales_velocity_weekly": 4.3,
+    "elasticity_estimate": -2.0,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 70.15,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 69.89,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0158",
+    "name": "Home & Kitchen Item 158",
+    "category": "Home & Kitchen",
+    "cogs": 124.79,
+    "current_price": 242.96,
+    "inventory_level": 269,
+    "sales_velocity_weekly": 35.8,
+    "elasticity_estimate": -0.95,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 277.49,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 246.44,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 209.68,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0159",
+    "name": "Sports & Outdoors Item 159",
+    "category": "Sports & Outdoors",
+    "cogs": 18.75,
+    "current_price": 30.16,
+    "inventory_level": 184,
+    "sales_velocity_weekly": 45.8,
+    "elasticity_estimate": -0.61,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 30.34,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 31.38,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 28.9,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0160",
+    "name": "Electronics Item 160",
+    "category": "Electronics",
+    "cogs": 84.53,
+    "current_price": 120.61,
+    "inventory_level": 496,
+    "sales_velocity_weekly": 22.5,
+    "elasticity_estimate": -1.49,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 106.54,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 119.51,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0161",
+    "name": "Home & Kitchen Item 161",
+    "category": "Home & Kitchen",
+    "cogs": 169.94,
+    "current_price": 257.5,
+    "inventory_level": 450,
+    "sales_velocity_weekly": 23.9,
+    "elasticity_estimate": -2.28,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 256.61,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0162",
+    "name": "Apparel Item 162",
+    "category": "Apparel",
+    "cogs": 89.88,
+    "current_price": 148.49,
+    "inventory_level": 234,
+    "sales_velocity_weekly": 11.6,
+    "elasticity_estimate": -1.04,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 152.2,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 161.65,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 162.99,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0163",
+    "name": "Apparel Item 163",
+    "category": "Apparel",
+    "cogs": 108.4,
+    "current_price": 173.59,
+    "inventory_level": 78,
+    "sales_velocity_weekly": 21.6,
+    "elasticity_estimate": -1.13,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 172.65,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 194.63,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0164",
+    "name": "Apparel Item 164",
+    "category": "Apparel",
+    "cogs": 68.34,
+    "current_price": 118.77,
+    "inventory_level": 195,
+    "sales_velocity_weekly": 45.3,
+    "elasticity_estimate": -1.64,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 127.87,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0165",
+    "name": "Sports & Outdoors Item 165",
+    "category": "Sports & Outdoors",
+    "cogs": 186.26,
+    "current_price": 342.9,
+    "inventory_level": 132,
+    "sales_velocity_weekly": 1.6,
+    "elasticity_estimate": -1.71,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 385.68,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 321.4,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 301.04,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0166",
+    "name": "Home & Kitchen Item 166",
+    "category": "Home & Kitchen",
+    "cogs": 168.22,
+    "current_price": 269.96,
+    "inventory_level": 463,
+    "sales_velocity_weekly": 29.0,
+    "elasticity_estimate": -1.26,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 251.72,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0167",
+    "name": "Apparel Item 167",
+    "category": "Apparel",
+    "cogs": 167.06,
+    "current_price": 330.89,
+    "inventory_level": 427,
+    "sales_velocity_weekly": 23.0,
+    "elasticity_estimate": -0.79,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 312.62,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0168",
+    "name": "Apparel Item 168",
+    "category": "Apparel",
+    "cogs": 41.97,
+    "current_price": 68.39,
+    "inventory_level": 334,
+    "sales_velocity_weekly": 26.8,
+    "elasticity_estimate": -0.58,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 74.66,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 66.95,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0169",
+    "name": "Sports & Outdoors Item 169",
+    "category": "Sports & Outdoors",
+    "cogs": 37.1,
+    "current_price": 56.59,
+    "inventory_level": 244,
+    "sales_velocity_weekly": 7.0,
+    "elasticity_estimate": -1.84,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 60.85,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 54.66,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0170",
+    "name": "Home & Kitchen Item 170",
+    "category": "Home & Kitchen",
+    "cogs": 122.24,
+    "current_price": 180.5,
+    "inventory_level": 406,
+    "sales_velocity_weekly": 27.0,
+    "elasticity_estimate": -2.37,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 184.99,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0171",
+    "name": "Apparel Item 171",
+    "category": "Apparel",
+    "cogs": 156.25,
+    "current_price": 279.31,
+    "inventory_level": 408,
+    "sales_velocity_weekly": 22.4,
+    "elasticity_estimate": -0.62,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 271.61,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 302.67,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0172",
+    "name": "Home & Kitchen Item 172",
+    "category": "Home & Kitchen",
+    "cogs": 113.84,
+    "current_price": 161.5,
+    "inventory_level": 244,
+    "sales_velocity_weekly": 48.3,
+    "elasticity_estimate": -1.71,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 182.73,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 177.87,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 153.01,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0173",
+    "name": "Home & Kitchen Item 173",
+    "category": "Home & Kitchen",
+    "cogs": 123.69,
+    "current_price": 159.01,
+    "inventory_level": 28,
+    "sales_velocity_weekly": 7.9,
+    "elasticity_estimate": -2.04,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 181.32,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 179.2,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0174",
+    "name": "Sports & Outdoors Item 174",
+    "category": "Sports & Outdoors",
+    "cogs": 27.75,
+    "current_price": 37.21,
+    "inventory_level": 488,
+    "sales_velocity_weekly": 22.2,
+    "elasticity_estimate": -0.64,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 33.42,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0175",
+    "name": "Apparel Item 175",
+    "category": "Apparel",
+    "cogs": 18.64,
+    "current_price": 37.12,
+    "inventory_level": 414,
+    "sales_velocity_weekly": 19.4,
+    "elasticity_estimate": -0.92,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 38.32,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0176",
+    "name": "Home & Kitchen Item 176",
+    "category": "Home & Kitchen",
+    "cogs": 17.44,
+    "current_price": 26.58,
+    "inventory_level": 343,
+    "sales_velocity_weekly": 17.7,
+    "elasticity_estimate": -1.31,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 28.76,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 27.7,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0177",
+    "name": "Home & Kitchen Item 177",
+    "category": "Home & Kitchen",
+    "cogs": 28.3,
+    "current_price": 39.56,
+    "inventory_level": 310,
+    "sales_velocity_weekly": 28.6,
+    "elasticity_estimate": -1.48,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 36.37,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 42.15,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 43.44,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0178",
+    "name": "Home & Kitchen Item 178",
+    "category": "Home & Kitchen",
+    "cogs": 150.45,
+    "current_price": 247.0,
+    "inventory_level": 462,
+    "sales_velocity_weekly": 39.0,
+    "elasticity_estimate": -0.56,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 221.37,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 262.84,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 256.93,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0179",
+    "name": "Sports & Outdoors Item 179",
+    "category": "Sports & Outdoors",
+    "cogs": 36.7,
+    "current_price": 45.49,
+    "inventory_level": 251,
+    "sales_velocity_weekly": 27.5,
+    "elasticity_estimate": -2.34,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 47.76,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 40.15,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0180",
+    "name": "Home & Kitchen Item 180",
+    "category": "Home & Kitchen",
+    "cogs": 199.98,
+    "current_price": 368.29,
+    "inventory_level": 464,
+    "sales_velocity_weekly": 1.8,
+    "elasticity_estimate": -0.56,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 392.14,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 386.52,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0181",
+    "name": "Apparel Item 181",
+    "category": "Apparel",
+    "cogs": 105.68,
+    "current_price": 130.65,
+    "inventory_level": 199,
+    "sales_velocity_weekly": 38.8,
+    "elasticity_estimate": -1.0,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 117.18,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 130.6,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Target",
+        "price": 113.97,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0182",
+    "name": "Home & Kitchen Item 182",
+    "category": "Home & Kitchen",
+    "cogs": 38.12,
+    "current_price": 52.0,
+    "inventory_level": 24,
+    "sales_velocity_weekly": 28.3,
+    "elasticity_estimate": -0.68,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 46.35,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 51.27,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 57.06,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0183",
+    "name": "Electronics Item 183",
+    "category": "Electronics",
+    "cogs": 45.62,
+    "current_price": 70.42,
+    "inventory_level": 350,
+    "sales_velocity_weekly": 14.6,
+    "elasticity_estimate": -1.64,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 73.09,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0184",
+    "name": "Home & Kitchen Item 184",
+    "category": "Home & Kitchen",
+    "cogs": 60.67,
+    "current_price": 91.94,
+    "inventory_level": 338,
+    "sales_velocity_weekly": 16.6,
+    "elasticity_estimate": -1.62,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 104.57,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 98.57,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 88.46,
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0185",
+    "name": "Apparel Item 185",
+    "category": "Apparel",
+    "cogs": 170.1,
+    "current_price": 250.24,
+    "inventory_level": 275,
+    "sales_velocity_weekly": 3.4,
+    "elasticity_estimate": -1.8,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 234.11,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0186",
+    "name": "Apparel Item 186",
+    "category": "Apparel",
+    "cogs": 59.61,
+    "current_price": 103.48,
+    "inventory_level": 255,
+    "sales_velocity_weekly": 14.9,
+    "elasticity_estimate": -2.39,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 88.33,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0187",
+    "name": "Home & Kitchen Item 187",
+    "category": "Home & Kitchen",
+    "cogs": 141.23,
+    "current_price": 243.24,
+    "inventory_level": 189,
+    "sales_velocity_weekly": 43.3,
+    "elasticity_estimate": -1.28,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 225.57,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 247.75,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 220.33,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0188",
+    "name": "Apparel Item 188",
+    "category": "Apparel",
+    "cogs": 26.01,
+    "current_price": 48.5,
+    "inventory_level": 257,
+    "sales_velocity_weekly": 10.9,
+    "elasticity_estimate": -1.56,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 52.79,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0189",
+    "name": "Sports & Outdoors Item 189",
+    "category": "Sports & Outdoors",
+    "cogs": 127.04,
+    "current_price": 164.18,
+    "inventory_level": 403,
+    "sales_velocity_weekly": 30.5,
+    "elasticity_estimate": -1.03,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 145.19,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0190",
+    "name": "Apparel Item 190",
+    "category": "Apparel",
+    "cogs": 49.93,
+    "current_price": 90.95,
+    "inventory_level": 270,
+    "sales_velocity_weekly": 27.7,
+    "elasticity_estimate": -2.35,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 99.98,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 95.64,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 92.68,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0191",
+    "name": "Apparel Item 191",
+    "category": "Apparel",
+    "cogs": 152.99,
+    "current_price": 189.74,
+    "inventory_level": 327,
+    "sales_velocity_weekly": 12.0,
+    "elasticity_estimate": -0.63,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 203.52,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 169.26,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0192",
+    "name": "Home & Kitchen Item 192",
+    "category": "Home & Kitchen",
+    "cogs": 86.27,
+    "current_price": 145.22,
+    "inventory_level": 254,
+    "sales_velocity_weekly": 42.8,
+    "elasticity_estimate": -2.45,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 155.83,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 157.74,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0193",
+    "name": "Home & Kitchen Item 193",
+    "category": "Home & Kitchen",
+    "cogs": 151.66,
+    "current_price": 216.78,
+    "inventory_level": 332,
+    "sales_velocity_weekly": 4.1,
+    "elasticity_estimate": -1.41,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 187.76,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 226.63,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0194",
+    "name": "Sports & Outdoors Item 194",
+    "category": "Sports & Outdoors",
+    "cogs": 98.25,
+    "current_price": 145.66,
+    "inventory_level": 5,
+    "sales_velocity_weekly": 41.1,
+    "elasticity_estimate": -1.62,
+    "competitor_pricing": [
+      {
+        "competitor_name": "BestBuy",
+        "price": 152.85,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 129.44,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0195",
+    "name": "Apparel Item 195",
+    "category": "Apparel",
+    "cogs": 24.11,
+    "current_price": 32.08,
+    "inventory_level": 292,
+    "sales_velocity_weekly": 1.8,
+    "elasticity_estimate": -2.01,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 33.64,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 35.59,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 28.39,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0196",
+    "name": "Sports & Outdoors Item 196",
+    "category": "Sports & Outdoors",
+    "cogs": 46.99,
+    "current_price": 80.04,
+    "inventory_level": 85,
+    "sales_velocity_weekly": 8.6,
+    "elasticity_estimate": -1.43,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 79.72,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 80.81,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0197",
+    "name": "Apparel Item 197",
+    "category": "Apparel",
+    "cogs": 100.1,
+    "current_price": 125.4,
+    "inventory_level": 374,
+    "sales_velocity_weekly": 40.0,
+    "elasticity_estimate": -2.09,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Target",
+        "price": 142.65,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0198",
+    "name": "Home & Kitchen Item 198",
+    "category": "Home & Kitchen",
+    "cogs": 84.64,
+    "current_price": 109.65,
+    "inventory_level": 166,
+    "sales_velocity_weekly": 2.8,
+    "elasticity_estimate": -1.2,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 120.52,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Target",
+        "price": 101.41,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "Amazon",
+        "price": 122.0,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0199",
+    "name": "Apparel Item 199",
+    "category": "Apparel",
+    "cogs": 199.77,
+    "current_price": 384.66,
+    "inventory_level": 20,
+    "sales_velocity_weekly": 19.9,
+    "elasticity_estimate": -0.83,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Amazon",
+        "price": 431.28,
+        "in_stock": true
+      },
+      {
+        "competitor_name": "BestBuy",
+        "price": 430.08,
+        "in_stock": false
+      },
+      {
+        "competitor_name": "Walmart",
+        "price": 401.36,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "sku_id": "SKU-0200",
+    "name": "Sports & Outdoors Item 200",
+    "category": "Sports & Outdoors",
+    "cogs": 72.53,
+    "current_price": 138.22,
+    "inventory_level": 362,
+    "sales_velocity_weekly": 45.8,
+    "elasticity_estimate": -1.77,
+    "competitor_pricing": [
+      {
+        "competitor_name": "Walmart",
+        "price": 121.87,
+        "in_stock": true
+      }
+    ]
+  }
+]

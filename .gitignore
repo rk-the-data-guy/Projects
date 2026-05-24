@@ -1,0 +1,14 @@
+# Ignore Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Environments
+venv/
+env/
+.venv/
+
+# Local configuration files
+.env
+
+# System Files
+.DS_Store
