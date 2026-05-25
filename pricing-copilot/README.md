@@ -30,7 +30,9 @@ A FastAPI web application backed by **Gemini 2.5 Flash** that ingests a structur
 2. Upload `data/mock_skus.json`
 3. Click **Analyze Dataset** — results render in ~20 seconds for 20 SKUs
 
-![Dashboard screenshot showing price comparison cards with current price, recommended price, rationale, and eval metrics](https://via.placeholder.com/900x500/0f172a/3b82f6?text=Pricing+Copilot+Dashboard)
+
+<img width="1910" height="994" alt="image" src="https://github.com/user-attachments/assets/a5cf27ba-8df8-4f09-a3fe-f6ef4126f78c" />
+
 
 ---
 
