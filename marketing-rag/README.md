@@ -16,6 +16,8 @@ They either ask around (slow, inconsistent), dig through shared drives (slower),
 
 **This system compresses that research from hours to seconds, while flagging when the answer is thin.**
 
+<img width="1127" height="978" alt="image" src="https://github.com/user-attachments/assets/d5a02355-cd1b-4601-8185-12f471539082" />
+
 ---
 
 ## Demo
