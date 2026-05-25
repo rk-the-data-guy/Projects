@@ -1,0 +1,242 @@
+[
+  {
+    "id": "qa-001",
+    "question": "What did we learn from the back-to-school campaign about creative refresh timing?",
+    "ground_truth_doc_ids": ["PM-0001", "PM-0002", "ST-0001", "ST-0003"],
+    "reference_answer": "The back-to-school campaign showed that creative fatigue sets in quickly—typically by day 4-5—causing CTR to drop 40-70% week-over-week. The key lesson is to build a 48-hour creative refresh buffer into every campaign plan and have refresh assets ready before launch, not after fatigue is detected.",
+    "difficulty": "easy",
+    "category": "post_mortem"
+  },
+  {
+    "id": "qa-002",
+    "question": "What channel consistently delivered the lowest CPA across campaigns?",
+    "ground_truth_doc_ids": ["PM-0001", "PM-0003", "PM-0005", "PM-0007"],
+    "reference_answer": "Post-mortem reports indicate that Email and top-performing social channels (TikTok and Instagram, depending on campaign) delivered the lowest CPAs. Email segmentation by purchase history was cited as driving a significant share of total revenue at lower cost.",
+    "difficulty": "medium",
+    "category": "post_mortem"
+  },
+  {
+    "id": "qa-003",
+    "question": "Which customer segment has the highest revenue contribution relative to its size?",
+    "ground_truth_doc_ids": ["CR-0001", "CR-0002", "CR-0003"],
+    "reference_answer": "Customer research reports show segments like The Achiever and The Loyalist consistently represent 22-38% of the customer base but contribute 35-55% of revenue, making them the highest-value segments disproportionate to their size.",
+    "difficulty": "easy",
+    "category": "customer_research"
+  },
+  {
+    "id": "qa-004",
+    "question": "What was the primary reason we lost competitive deals to BrandX?",
+    "ground_truth_doc_ids": ["WL-0001", "WL-0002", "WL-0005"],
+    "reference_answer": "Win/loss notes indicate that deals lost to competitors were typically due to: (1) aggressive discounting by competitors (15-35% off list price), (2) existing relationships competitors had with the prospect, and (3) specific compliance certifications or feature gaps we couldn't close in the evaluation timeline.",
+    "difficulty": "medium",
+    "category": "win_loss"
+  },
+  {
+    "id": "qa-005",
+    "question": "What did the back-to-school slack thread say about TikTok performance?",
+    "ground_truth_doc_ids": ["ST-0003"],
+    "reference_answer": "The back-to-school campaign Slack retrospective noted that TikTok creative was a surprise hit—it significantly outperformed Instagram. The team recommended increasing TikTok budget allocation for the following year's campaign cycle.",
+    "difficulty": "easy",
+    "category": "slack_thread"
+  },
+  {
+    "id": "qa-006",
+    "question": "What messaging concepts resonated most with the Conscious Consumer persona?",
+    "ground_truth_doc_ids": ["CR-0002", "CR-0004", "CR-0006"],
+    "reference_answer": "Customer research on value-driven segments shows messages emphasizing sustainability, authenticity, and real results outperform generic category messaging by 25-55%. Concepts that felt 'luxury for less' or trend-chasing underperformed, while grounded and honest messaging around values connected strongly.",
+    "difficulty": "medium",
+    "category": "customer_research"
+  },
+  {
+    "id": "qa-007",
+    "question": "What were the top 3 learnings documented after the holiday blitz campaign?",
+    "ground_truth_doc_ids": ["PM-0002", "PM-0004", "ST-0002"],
+    "reference_answer": "Post-mortems and Slack thread summaries from the holiday period cite: (1) creative refresh timeline—need 2-week buffer with pre-built refresh assets; (2) audience segmentation—broad audience groupings underperform, segments must be treated distinctly; (3) competitor monitoring must be weekly, not monthly, as competitors adjust pricing mid-campaign.",
+    "difficulty": "medium",
+    "category": "post_mortem"
+  },
+  {
+    "id": "qa-008",
+    "question": "What is the target ROAS for our paid campaigns?",
+    "ground_truth_doc_ids": ["CB-0001", "CB-0003", "CB-0005"],
+    "reference_answer": "Campaign briefs set target ROAS between 2.5x and 6.0x depending on campaign objectives, channels, and audience maturity. New customer acquisition campaigns typically target a lower ROAS (2.5-3.5x) to account for the higher cost of reaching cold audiences.",
+    "difficulty": "easy",
+    "category": "campaign_brief"
+  },
+  {
+    "id": "qa-009",
+    "question": "How did discount code leaks affect campaign performance?",
+    "ground_truth_doc_ids": ["PM-0001", "PM-0003", "ST-0003"],
+    "reference_answer": "Post-mortems and Slack threads document that discount code leaks to deal forums attracted 20-40% deal-seeking customers who purchased once and returned at 3x the average return rate, inflating spend without contributing to long-term customer value. The recommended mitigation is gated offers and single-use codes.",
+    "difficulty": "medium",
+    "category": "post_mortem"
+  },
+  {
+    "id": "qa-010",
+    "question": "What budget allocation approach is recommended for Instagram vs TikTok?",
+    "ground_truth_doc_ids": ["CB-0001", "CB-0002", "PM-0001", "ST-0003"],
+    "reference_answer": "Campaign briefs and post-mortems show evolving thinking: early briefs allocated higher budgets to Instagram, but post-mortems (especially back-to-school retrospectives) show TikTok outperforming at lower CPAs. Recommendation emerging from the data is to increase TikTok allocation while treating Instagram as the secondary channel for awareness.",
+    "difficulty": "hard",
+    "category": "campaign_brief"
+  },
+  {
+    "id": "qa-011",
+    "question": "What NPS score range does the Achiever segment typically show?",
+    "ground_truth_doc_ids": ["CR-0001", "CR-0003"],
+    "reference_answer": "Customer research reports show NPS scores for high-value segments like The Achiever ranging from 22 to 72, with the segment's satisfaction closely tied to product quality and onboarding experience. Segments that report reliability and performance as top values tend to score at the higher end.",
+    "difficulty": "easy",
+    "category": "customer_research"
+  },
+  {
+    "id": "qa-012",
+    "question": "What was our strategy for the Valentine's Launch campaign?",
+    "ground_truth_doc_ids": ["CB-0004", "CB-0006"],
+    "reference_answer": "Valentine's Launch campaign briefs focus on new customer acquisition with UGC-style creative on social channels and strong email segmentation. The messaging typically leans warm and authentic with conversion-focused CTAs. Budget allocates heavily to email and paid social with influencer partnerships as a secondary layer.",
+    "difficulty": "easy",
+    "category": "campaign_brief"
+  },
+  {
+    "id": "qa-013",
+    "question": "What are the common reasons customers in our target segments lapse?",
+    "ground_truth_doc_ids": ["CR-0001", "CR-0002", "CR-0004", "CR-0005"],
+    "reference_answer": "Customer research identifies the primary lapse drivers as: price sensitivity (finding better value elsewhere), product not meeting expectations, email fatigue from over-communication, and competitors offering better alternatives. Reactivation programs with personalized offers at the 90-day mark show 8-22% reactivation rates.",
+    "difficulty": "medium",
+    "category": "customer_research"
+  },
+  {
+    "id": "qa-014",
+    "question": "How long does it typically take for competitor algorithm re-learning after budget reallocation?",
+    "ground_truth_doc_ids": ["ST-0001", "ST-0002", "PM-0002"],
+    "reference_answer": "Slack thread discussions note that budget reallocation mid-campaign requires a 3-day lead time for platform algorithm re-learning. Teams are advised not to reallocate without checking with leadership first and building this lag into campaign plans.",
+    "difficulty": "medium",
+    "category": "slack_thread"
+  },
+  {
+    "id": "qa-015",
+    "question": "What creative format performed best in back-to-school and summer campaigns?",
+    "ground_truth_doc_ids": ["PM-0001", "PM-0003", "CB-0001", "CB-0003"],
+    "reference_answer": "Post-mortems consistently show UGC-style short-form video (under 15 seconds) outperforming produced video by up to 3.2x on CTR, particularly on TikTok and Instagram. Static carousels with bold headlines and testimonials were the second-best format. Produced brand video underperformed across all evaluated campaigns.",
+    "difficulty": "medium",
+    "category": "post_mortem"
+  },
+  {
+    "id": "qa-016",
+    "question": "What was the reactivation rate for lapsed customers with personalized offers?",
+    "ground_truth_doc_ids": ["CR-0001", "CR-0002", "CR-0003"],
+    "reference_answer": "Customer research reports document that reactivation email campaigns using personalized offers based on past purchase history achieved 8-22% reactivation rates. The trigger point that performed best was 90 days since last purchase.",
+    "difficulty": "easy",
+    "category": "customer_research"
+  },
+  {
+    "id": "qa-017",
+    "question": "What compliance gaps have caused us to lose competitive deals?",
+    "ground_truth_doc_ids": ["WL-0003", "WL-0005", "WL-0007"],
+    "reference_answer": "Win/loss notes record instances where prospects in regulated verticals required specific compliance certifications that competitors held but we lacked. This was identified as a recurring blocker in financial services and healthcare-adjacent accounts. The recommended action is to prioritize the relevant certifications.",
+    "difficulty": "medium",
+    "category": "win_loss"
+  },
+  {
+    "id": "qa-018",
+    "question": "How did influencer partnerships compare to paid social in ROI?",
+    "ground_truth_doc_ids": ["PM-0002", "PM-0004", "ST-0002", "CB-0002"],
+    "reference_answer": "Multiple post-mortems and Slack retrospectives show micro-creator influencer partnerships delivering 15-40% lower CPA than brand-paid ads on the same platforms. Several post-mortems explicitly note that influencer collab ROI exceeded expectations and recommend doubling down in future campaign cycles.",
+    "difficulty": "medium",
+    "category": "post_mortem"
+  },
+  {
+    "id": "qa-019",
+    "question": "What is the typical email open rate target in our campaign briefs?",
+    "ground_truth_doc_ids": ["CB-0001", "CB-0002", "CB-0005"],
+    "reference_answer": "Campaign briefs set email open rate targets between 22% and 38%, varying by audience segment maturity and campaign type. Reactivation and loyalty campaigns targeting existing customers typically target the higher end of this range.",
+    "difficulty": "easy",
+    "category": "campaign_brief"
+  },
+  {
+    "id": "qa-020",
+    "question": "What did teams learn about audience segmentation from campaign failures?",
+    "ground_truth_doc_ids": ["PM-0002", "PM-0004", "ST-0002", "CR-0001"],
+    "reference_answer": "Post-mortems and Slack threads consistently flag over-broad audience groupings as a failure mode. Treating a heterogeneous audience as one segment resulted in messaging that resonated with no sub-group strongly. Customer research reinforces that segments like Gen Z and Millennials have distinct purchase drivers and should be targeted separately.",
+    "difficulty": "hard",
+    "category": "post_mortem"
+  },
+  {
+    "id": "qa-021",
+    "question": "What factors did prospects rank highest when choosing between us and a competitor?",
+    "ground_truth_doc_ids": ["WL-0001", "WL-0002", "WL-0004", "WL-0006"],
+    "reference_answer": "Win/loss notes show prospect decision criteria ranked as: (1) integration capabilities and ease of use, (2) support quality and onboarding experience, (3) pricing and contract flexibility, and (4) customer references and case studies from similar companies. Feature set mattered less than implementation speed and relationship quality.",
+    "difficulty": "medium",
+    "category": "win_loss"
+  },
+  {
+    "id": "qa-022",
+    "question": "How are competitors pricing compared to us in competitive evaluations?",
+    "ground_truth_doc_ids": ["WL-0001", "WL-0003", "WL-0005", "WL-0007"],
+    "reference_answer": "Win/loss analysis documents competitors discounting aggressively—15-35% off list price—to win new logos. This pricing pressure is most acute in highly competitive evaluations. Our win rate holds when we lead with support quality and onboarding speed rather than competing on price alone.",
+    "difficulty": "medium",
+    "category": "win_loss"
+  },
+  {
+    "id": "qa-023",
+    "question": "What was the impact of launching email campaigns late?",
+    "ground_truth_doc_ids": ["ST-0003", "PM-0001", "PM-0003"],
+    "reference_answer": "Slack thread retrospectives and post-mortems note that delays in email launch—often due to legal review cycles—cost the opening weekend window which represents a disproportionate share of campaign revenue. Teams estimate 15-30% of revenue was left on the table due to 3-7 day launch delays.",
+    "difficulty": "easy",
+    "category": "slack_thread"
+  },
+  {
+    "id": "qa-024",
+    "question": "What percentage of customers would pay more if quality signaling was clearer?",
+    "ground_truth_doc_ids": ["CR-0001", "CR-0002", "CR-0003", "CR-0004"],
+    "reference_answer": "Customer research across multiple segments shows 28-42% of respondents would pay 10-25% more if quality signaling was clearer. This is a consistent finding across segments and represents a significant pricing power opportunity currently unrealized.",
+    "difficulty": "medium",
+    "category": "customer_research"
+  },
+  {
+    "id": "qa-025",
+    "question": "What was the performance of broad match keywords on Google Ads?",
+    "ground_truth_doc_ids": ["PM-0001", "PM-0003", "PM-0005"],
+    "reference_answer": "Post-mortems document that broad match keywords on Google Ads consistently drove unqualified traffic with poor conversion rates. The recommended approach is to start with exact match keywords and expand to broad match only after conversion data validates the audience quality.",
+    "difficulty": "medium",
+    "category": "post_mortem"
+  },
+  {
+    "id": "qa-026",
+    "question": "What are the action items typically generated from campaign Slack retrospectives?",
+    "ground_truth_doc_ids": ["ST-0001", "ST-0002", "ST-0003"],
+    "reference_answer": "Slack thread summaries document recurring action items: drafting post-mortems with top learnings, sending creative briefs to design with 48-hour timelines, updating audience segment definitions, monitoring competitor pricing weekly, and updating campaign trackers with final metrics.",
+    "difficulty": "easy",
+    "category": "slack_thread"
+  },
+  {
+    "id": "qa-027",
+    "question": "What is the recommended approach when a prospect has a pre-existing relationship with a competitor?",
+    "ground_truth_doc_ids": ["WL-0002", "WL-0004", "WL-0006"],
+    "reference_answer": "Win/loss notes recommend multi-threading these accounts starting 6+ months before the evaluation begins. Relationship-first accounts require executive-level engagement and proof-of-concept opportunities to build trust before a formal evaluation. Competing purely on features in these scenarios has a low win rate.",
+    "difficulty": "hard",
+    "category": "win_loss"
+  },
+  {
+    "id": "qa-028",
+    "question": "What does the campaign brief template include for risk flags?",
+    "ground_truth_doc_ids": ["CB-0001", "CB-0002", "CB-0003", "CB-0005"],
+    "reference_answer": "Campaign briefs include a dedicated Risk Flags section covering: competitor activity in the same window (share of voice monitoring), creative fatigue risk on primary channels (with refresh asset requirements), and offer mechanics risks like coupon leaks. Each risk flag includes a mitigation approach.",
+    "difficulty": "easy",
+    "category": "campaign_brief"
+  },
+  {
+    "id": "qa-029",
+    "question": "What have we learned about attribution model disagreements between channels?",
+    "ground_truth_doc_ids": ["PM-0002", "PM-0004", "PM-0006"],
+    "reference_answer": "Post-mortems document that attribution model disagreements between channels can inflate ROAS estimates by approximately 15%. This occurs when multiple channels claim credit for the same conversion. Recommended fix is a unified last-touch or data-driven attribution model applied consistently across all channels before reporting.",
+    "difficulty": "hard",
+    "category": "post_mortem"
+  },
+  {
+    "id": "qa-030",
+    "question": "What brand perception words are most commonly associated with our brands?",
+    "ground_truth_doc_ids": ["CR-0001", "CR-0002", "CR-0003", "CR-0004", "CR-0005"],
+    "reference_answer": "Customer research across multiple segments and brands surfaces consistent perception themes: 'reliable', 'innovative', 'premium', and 'trustworthy' appear most frequently as top-of-mind descriptors. 'Expensive' appears less frequently but is present across premium-positioned brands, often paired with 'worth it' by satisfied customers.",
+    "difficulty": "easy",
+    "category": "customer_research"
+  }
+]
